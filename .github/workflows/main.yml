@@ -279,13 +279,6 @@ jobs:
         path: .fg/extensions/ConstitutionalAmendments
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone MeAndUnique/EffectivePagentry
-      uses: actions/checkout@v3
-      with:
-        repository: MeAndUnique/EffectivePagentry
-        path: .fg/extensions/EffectivePagentry
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
     - name: Clone MeAndUnique/FriendZone
       uses: actions/checkout@v3
       with:
