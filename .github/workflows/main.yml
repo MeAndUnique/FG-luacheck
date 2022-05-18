@@ -244,6 +244,83 @@ jobs:
         path: .fg/extensions/FG-4E-TEMPO-and-TEMPA
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/Bartender
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/Bartender
+        path: .fg/extensions/Bartender
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/BlissfulIgnorance
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/BlissfulIgnorance
+        path: .fg/extensions/BlissfulIgnorance
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/CapitalGains
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/CapitalGains
+        path: .fg/extensions/CapitalGains
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/ColorfulLanguage
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/ColorfulLanguage
+        path: .fg/extensions/ColorfulLanguage
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/ConstitutionalAmendments
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/ConstitutionalAmendments
+        path: .fg/extensions/ConstitutionalAmendments
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/EffectivePagentry
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/EffectivePagentry
+        path: .fg/extensions/EffectivePagentry
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/FriendZone
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/FriendZone
+        path: .fg/extensions/FriendZone
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/KitNKaboodle
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/KitNKaboodle
+        path: .fg/extensions/KitNKaboodle
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/RoleWithIt
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/RoleWithIt
+        path: .fg/extensions/RoleWithIt
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/SizeMatters
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/SizeMatters
+        path: .fg/extensions/SizeMatters
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone MeAndUnique/TriggerMeTimbers
+      uses: actions/checkout@v3
+      with:
+        repository: MeAndUnique/TriggerMeTimbers
+        path: .fg/extensions/TriggerMeTimbers
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
     
     # Processing
     - name: Generate new .luacheckrc
